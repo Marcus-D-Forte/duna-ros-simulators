@@ -40,7 +40,7 @@
   </joint>
 
   <gazebo reference="volume_laser">
-    <sensor type="ray" name="sensor_ray">
+    <sensor type="gpu_ray" name="sensor_ray">
       <pose>0 0 0 0 0 0</pose>
       <visualize>false</visualize>
       <update_rate>10</update_rate>

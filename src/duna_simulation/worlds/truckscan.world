@@ -63,6 +63,24 @@
       </link>
     </model>
 
+    <model name="mymesh">
+      <pose>-12 22 0 0 0 0</pose>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://truck.dae</uri></mesh>
+          </geometry>
+        </visual>
+        <collision name="collision">
+          <geometry>
+            <mesh><uri>file://truck.dae</uri></mesh>
+          </geometry>
+          <laser_retro>100.0</laser_retro>
+        </collision>
+      </link>
+      <plugin name="model_push" filename="libmodel_mover.so"/>
+    </model>
+
     
 
   </world>
