@@ -36,7 +36,7 @@ namespace gazebo
       // this->model->SetLinearVel(ignition::math::Vector3d(.3, 0, 0))
       static ignition::math::Pose3d pose = this->model->WorldPose();
 
-      double x = pose.X() + 0.0005;
+      double x = pose.X() - 0.0005;
 
       if (x > initial_position_x + threshold)
       {

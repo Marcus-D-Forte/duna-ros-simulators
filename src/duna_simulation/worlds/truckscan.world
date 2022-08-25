@@ -30,7 +30,7 @@
 -->
 <sdf version="1.6">
   <world name="ray_sensor_demo">
-    <gravity>0 0 0</gravity>
+    <gravity>0 0 -1</gravity>
 
     <include>
       <uri>model://sun</uri>
@@ -42,7 +42,7 @@
 
     
 
-    <model name="box">
+    <!-- <model name="box">
       <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
       <link name="base_link">
         <visual name="visual">
@@ -61,7 +61,7 @@
           <laser_retro>100.0</laser_retro>
         </collision>
       </link>
-    </model>
+    </model> -->
 
     <model name="mymesh">
       <pose>-12 22 0 0 0 0</pose>
